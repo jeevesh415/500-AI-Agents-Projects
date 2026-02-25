@@ -62,10 +62,14 @@ pip install -r requirements.txt
 ```
 
 2. Set up your environment variables:
-```bash
-export FASTMCP_URL=http://your-fastmcp-server-url:port
-export FASTMCP_API_KEY=your-api-key
+Create a `.env` file in the project root:
+```env
+FASTMCP_URL=http://your-fastmcp-server-url:port
+FASTMCP_API_KEY=your-api-key
 ```
+
+> [!IMPORTANT]
+> Never commit your `.env` file to version control. Ensure `.env` is added to your `.gitignore` file.
 
 3. Run the examples:
 ```bash
@@ -95,10 +99,14 @@ uv pip install -r requirements.txt
 ```
 
 4. Set up your environment variables:
-```bash
-export FASTMCP_URL=http://your-fastmcp-server-url:port
-export FASTMCP_API_KEY=your-api-key
+Create a `.env` file in the project root:
+```env
+FASTMCP_URL=http://your-fastmcp-server-url:port
+FASTMCP_API_KEY=your-api-key
 ```
+
+> [!IMPORTANT]
+> Never commit your `.env` file to version control. Ensure `.env` is added to your `.gitignore` file.
 
 5. Run the examples:
 ```bash
